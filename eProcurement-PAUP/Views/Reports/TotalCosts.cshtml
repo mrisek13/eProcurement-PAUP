@@ -1,0 +1,51 @@
+﻿﻿@using System.Globalization
+@model IEnumerable<eProcurement_PAUP.Models.OrderViewModel>
+@{
+    ViewBag.Title = "Total Costs in Period";
+}
+
+<h2>Total Costs in Period</h2>
+
+@using (Html.BeginForm("TotalCosts", "Reports", FormMethod.Get))
+{
+    <div class="form-group">
+        <label for="startDate">Start Date</label>
+        <input type="date" id="startDate" name="startDate" class="form-control" value="@ViewBag.StartDate" required />
+    </div>
+    <div class="form-group">
+        <label for="endDate">End Date</label>
+        <input type="date" id="endDate" name="endDate" class="form-control" value="@ViewBag.EndDate" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Filter</button>
+}
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Supplier Name</th>
+                <th>Period</th>
+                <th>Total Cost</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.SupplierName</td>
+                    <td>@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(item.Month) @item.Year</td>
+                    <td>@item.TotalCost.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Model != null)
+{
+    <p>No data available for the selected date range.</p>
+}
+else
+{
+    <p>Please select a date range to view the report.</p>
+}

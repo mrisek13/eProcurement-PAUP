@@ -1,0 +1,48 @@
+﻿@model IEnumerable<eProcurement_PAUP.Models.OrderViewModel>
+
+<h2>Orders</h2>
+
+@if (Model.Any())
+{
+    @Html.ActionLink("Generate PDF", "GeneratePDF", "Orders", new { @class = "btn btn-primary" })
+
+    foreach (var orderViewModel in Model)
+    {
+        <h3>@orderViewModel.SupplierName</h3>
+
+        <table class="table">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Ordered Quantity</th>
+                <th>Price</th>
+            </tr>
+            @{ decimal ukupno = 0; }
+            @foreach (var item in orderViewModel.Items)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                    <td>@item.OrderedQuantity @item.Unit</td>
+                    <td>@(item.OrderedQuantity * item.Price) €</td>
+                </tr>
+                ukupno += item.OrderedQuantity * item.Price;
+            }
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Total</th>
+                <th>@ukupno €</th>
+            </tr>
+        </table>
+    }
+
+    using (Html.BeginForm("ConfirmAllOrders", "Orders", FormMethod.Post))
+    {
+        <button type="submit" class="btn btn-success">Potvrdi sve narudžbe</button>
+    }
+}
+else
+{
+    <p>Nema narudžbi za prikaz.</p>
+}

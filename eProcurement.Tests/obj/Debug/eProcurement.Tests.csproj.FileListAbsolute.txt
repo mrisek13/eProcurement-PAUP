@@ -1,0 +1,230 @@
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement.Tests.dll.config
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement.Tests.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement.Tests.pdb
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement-PAUP.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Google.Protobuf.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFrameworkCore.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Buffers.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Collections.Immutable.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.IO.Pipelines.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Memory.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\ZstdSharp.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\itextsharp.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\PagedList.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\WebGrease.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement-PAUP.pdb
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement-PAUP.dll.config
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Google.Protobuf.pdb
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Google.Protobuf.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFrameworkCore.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Buffers.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Collections.Immutable.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.IO.Pipelines.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Memory.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\itextsharp.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\PagedList.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.csproj.AssemblyReference.cache
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.csproj.CoreCompileInputs.cache
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.csproj.CopyComplete
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.dll
+C:\Users\ABC Tech account\source\repos\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.pdb
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement.Tests.dll.config
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement.Tests.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement.Tests.pdb
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement-PAUP.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Google.Protobuf.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFramework.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Buffers.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Memory.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Razor.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\ZstdSharp.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\itextsharp.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\PagedList.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\WebGrease.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement-PAUP.pdb
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\eProcurement-PAUP.dll.config
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Google.Protobuf.pdb
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Google.Protobuf.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFramework.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\MySql.Data.EntityFrameworkCore.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Buffers.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Memory.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Razor.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\System.Web.Optimization.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\itextsharp.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\PagedList.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.csproj.AssemblyReference.cache
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.csproj.CopyComplete
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.dll
+C:\Users\Mrisek\Desktop\eProcurement-PAUP\eProcurement.Tests\obj\Debug\eProcurement.Tests.pdb

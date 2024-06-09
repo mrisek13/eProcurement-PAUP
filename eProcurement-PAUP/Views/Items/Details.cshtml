@@ -1,0 +1,125 @@
+﻿@model eProcurement_PAUP.Models.Item
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>@Html.DisplayFor(model => model.Name)</h2>
+
+<div class="row">
+    <div class="col-md-6">
+        <div>
+            @if (Model.Image != null && Model.Image.Length > 0)
+            {
+                <img src="data:image;base64,@Convert.ToBase64String(Model.Image)" alt="Logo dobavljača">
+            }
+            else
+            {
+                <span>Nema dostupnog logotipa</span>
+            }
+            <h4>Item</h4>
+            <hr />
+            <dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.Name)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Supplier.Name)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Supplier.Name)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Quantity)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Quantity)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.MinimumQuantity)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.MinimumQuantity)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Unit)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Unit)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.Category)
+                </dt>
+                <dd>
+                    @Html.DisplayFor(model => model.Category)
+                </dd>
+            </dl>
+        </div>
+
+        <div class="text-left">
+            @Html.ActionLink("Edit", "Edit", new { id = Model.ID }, new { @class = "btn btn-primary" })
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-info" })
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <h4>Order</h4>
+        <hr />
+        <div>
+            <p>
+                Odaberi količinu:
+                <input type="number" id="quantity" value="1" min="1" max="@Model.Quantity" />
+            </p>
+
+            <p>
+                Ukupna cijena: <span id="totalPrice">@Model.Price €</span>
+            </p>
+
+            @using (Html.BeginForm("AddToOrder", "Items", FormMethod.Post, new { id = "orderForm" }))
+            {
+                @Html.AntiForgeryToken()
+                @Html.HiddenFor(model => model.ID)
+                @Html.HiddenFor(model => model.Price)
+                <input type="hidden" id="quantityInput" name="quantity" value="1" />
+                <button type="submit" class="btn btn-primary">Dodaj u narudžbu</button>
+            }
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            var price = parseFloat('@Model.Price');
+
+            $('#quantity').change(function () {
+                var quantity = parseFloat($(this).val());
+                var totalPrice = (quantity * price).toFixed(2);
+                $('#totalPrice').text(totalPrice + ' €');
+                $('#quantityInput').val(quantity);
+            });
+        });
+    </script>
+}

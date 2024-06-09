@@ -1,0 +1,56 @@
+﻿@model IEnumerable<eProcurement_PAUP.Models.OrderViewModel>
+
+@{
+    ViewBag.Title = "Status";
+}
+
+<h2>Status</h2>
+
+<p>
+    <a href="@Url.Action("Index", "Items")" class="btn btn-success">New Order</a>
+    <a href="@Url.Action("OrderStatusReport")" class="btn btn-primary">Generate PDF</a>
+</p>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            Order ID 
+        </th>
+        <th>
+            Supplier
+        </th>
+        <th>
+            Order Date
+        </th>
+        <th>
+            Status
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                #@Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SupplierName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OrderDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                <div class="btn-group" role="group">
+                    <a href="@Url.Action("Edit", new { id = item.ID })" class="btn btn-primary">Uredi</a>
+                    <a href="@Url.Action("Details", new { id = item.ID })" class="btn btn-info">Detalji</a>
+                    <a href="@Url.Action("Delete", new { id = item.ID })" class="btn btn-danger">Obriši</a>
+                </div>
+            </td>
+        </tr>
+    }
+
+</table>

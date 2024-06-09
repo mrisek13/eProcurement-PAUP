@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<style>
+    #c1 {
+        background-color: rgb(240, 245, 245);
+        opacity: 0.70;
+    }
+</style>
+<div class="jumbotron">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="~/Content/Images/img1.jpg" alt="Chania">
+                <div class="carousel-caption" id="c1">
+                    <h3>Dobavljači</h3>
+                    <p>Pregledajte, uredite i kontaktirajte sve dobavljače!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="~/Content/Images/img2.jpg" alt="Chicago">
+                <div class="carousel-caption" id="c1">
+                    <h3>Artikli</h3>
+                    <p>Provjerite stanje artikala na skladištu i naručite novu robu!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="~/Content/Images/img3.jpg" alt="New York">
+                <div class="carousel-caption" id="c1">
+                    <h3>Narudžba</h3>
+                    <p>Otvorite detalje svakog artikla, provjerite cijenu i dodajte artikl u narudžbu!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Dobavljači</h2>
+        <p>
+            Upravljanje dobavljačima – ekran će sadržavati prikaz podataka te filtriranje istih prema
+            postavljenim uvjetima. Prikazat će se lista dobavljača, a biti će omogućeno i dodavanje ili uređivanje
+            dobavljača.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Artikli</h2>
+        <p>
+            Praćenje stanja skladišta – filtriranje i sortiranje podataka može biti na osnovi količine robe na zalihi,
+            opisa robe, kategorije robe, cijene. Osim toga biti će omogućeno dodavanje novih proizvoda u
+            skladište.
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Narudžbe</h2>
+        <p>
+            Praćenja statusa izdanih narudžbi – Tablični prikaz trenutnih statusa narudžbi. Neka od mogućih
+            stanja će biti: u tranzitu, kašnjenje, odbačeno, isporučeno, odobreno, primljeno.
+        </p>
+    </div>
+</div>

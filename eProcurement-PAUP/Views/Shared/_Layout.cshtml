@@ -1,0 +1,90 @@
+﻿@using eProcurement_PAUP.Misc
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        .carousel-indicators li {
+            background-color: white; /* Boja za neaktivne indikatore */
+            cursor: pointer;
+            border: 1px solid gray;
+        }
+
+        .carousel-indicators .active {
+            background-color: gray; /* Boja za aktivni indikator */
+            border: 1px solid gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("eProcurement", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink("Suppliers", "Index", "Suppliers")</li>
+                        <li>@Html.ActionLink("Items", "Index", "Items")</li>
+                        <li>@Html.ActionLink("Orders", "Index", "Orders")</li>
+                        <li>@Html.ActionLink("Status", "Index", "Status")</li>
+                    }
+                    @if (User.Identity.IsAuthenticated && (User as LoggedInUser).IsInRole(UserPermissions.Administrator))
+                    {
+                        <li>@Html.ActionLink("Users", "Index", "Users")</li>
+                    }
+                    @if ((User.Identity.IsAuthenticated && (User as LoggedInUser).IsInRole(UserPermissions.Administrator)) ||
+                        (User.Identity.IsAuthenticated && (User as LoggedInUser).IsInRole(UserPermissions.Uprava)))
+                    {
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Reports
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>@Html.ActionLink("Total Costs by Supplier", "MonthlyCostsBySupplier", "Reports")</li>
+                                <li>@Html.ActionLink("Total Costs in Period", "TotalCosts", "Reports")</li>
+                            </ul>
+                        </li>
+                    }
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li>@Html.ActionLink(((User as LoggedInUser).FullName), "Index", "Home")</li>
+                        <li>@Html.ActionLink("Logout", "Logout", "Users")</li>
+ <!-- Ovdje je ispravan kontroler za Logout -->
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("Login", "Login", "Users")</li>
+ <!-- Ovdje je ispravan kontroler za Login -->
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>eProcurement &copy; Maja Risek - PAUP @DateTime.Now.Year</p>
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

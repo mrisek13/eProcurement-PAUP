@@ -1,0 +1,86 @@
+﻿@using eProcurement_PAUP.Models
+@using PagedList.Mvc;
+@using PagedList
+@model IPagedList<eProcurement_PAUP.Models.Supplier>
+
+@{
+    ViewBag.Title = "Suppliers";
+}
+
+<h2>Suppliers</h2>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-success">New Supplier</a>
+    <a href="@Url.Action("Report")" class="btn btn-primary">Generate PDF</a>
+</p>
+
+@using (Html.BeginForm("Index", "Suppliers", FormMethod.Get))
+{
+    <p>
+        Ime dobavljača: @Html.TextBox("searchString", ViewBag.SearchString as string)
+        Status dobavljača: @Html.DropDownList("statusFilter", new SelectList(Enum.GetValues(typeof(SupplierStatus))), "Odaberi status", new { @value = ViewBag.StatusFilter })
+        <input type="submit" value="Search" class="btn btn-default" />
+    </p>
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm, searchString = ViewBag.SearchString, statusFilter = ViewBag.StatusFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Address", "Index", new { sortOrder = ViewBag.AddressSortParm, searchString = ViewBag.SearchString, statusFilter = ViewBag.StatusFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Phone", "Index", new { sortOrder = ViewBag.PhoneSortParm, searchString = ViewBag.SearchString, statusFilter = ViewBag.StatusFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Email", "Index", new { sortOrder = ViewBag.EmailSortParm, searchString = ViewBag.SearchString, statusFilter = ViewBag.StatusFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Status", "Index", new { sortOrder = ViewBag.StatusSortParm, searchString = ViewBag.SearchString, statusFilter = ViewBag.StatusFilter })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Logo)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Name)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Address)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Phone)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Email)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Status)
+    </td>
+    <td>
+        @if (item.Logo != null)
+        {
+            <img src="data:image;base64,@Convert.ToBase64String(item.Logo)" alt="Logo dobavljača" style="max-width: 50px; max-height: 50px;" />
+        }
+    </td>
+    <td>
+        <div class="btn-group" role="group">
+            <a href="@Url.Action("Edit", new { id = item.ID })" class="btn btn-primary">Uredi</a>
+            <a href="@Url.Action("Details", new { id = item.ID })" class="btn btn-info">Detalji</a>
+            <a href="@Url.Action("Delete", new { id = item.ID })" class="btn btn-danger">Obriši</a>
+        </div>
+    </td>
+</tr>
+    }
+</table>
+
+<div>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchString = ViewBag.SearchString, sortOrder = ViewBag.CurrentSort, statusFilter = ViewBag.StatusFilter }))
+</div>

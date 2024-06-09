@@ -1,0 +1,101 @@
+﻿@using eProcurement_PAUP.Models
+@using PagedList.Mvc;
+@using PagedList
+@model IPagedList<eProcurement_PAUP.Models.Item>
+
+@{
+    ViewBag.Title = "Items";
+}
+
+<h2>Items</h2>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-success">New Item</a>
+    <a href="@Url.Action("ItemReport")" class="btn btn-primary">Generate PDF</a>
+</p>
+
+@using (Html.BeginForm("Index", "Items", FormMethod.Get))
+{
+    <p>
+        Naziv artikla: @Html.TextBox("searchString", ViewBag.SearchString as string)
+        Kategorija: @Html.DropDownList("categoryFilter", new SelectList(Enum.GetValues(typeof(ItemCategory))), "Odaberi kategoriju", new { @value = ViewBag.CategoryFilter })
+        <input type="submit" value="Search" class="btn btn-default" />
+    </p>
+}
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm, searchString = ViewBag.SearchString, categoryFilter = ViewBag.CategoryFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Supplier", "Index", new { sortOrder = ViewBag.SupplierSortParm, searchString = ViewBag.SearchString, categoryFilter = ViewBag.CategoryFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Price", "Index", new { sortOrder = ViewBag.PriceSortParm, searchString = ViewBag.SearchString, categoryFilter = ViewBag.CategoryFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Quantity", "Index", new { sortOrder = ViewBag.QuantitySortParm, searchString = ViewBag.SearchString, categoryFilter = ViewBag.CategoryFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Minimum Quantity", "Index", new { sortOrder = ViewBag.MinimumQuantitySortParm, searchString = ViewBag.SearchString, categoryFilter = ViewBag.CategoryFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Unit", "Index", new { sortOrder = ViewBag.UnitSortParm, searchString = ViewBag.SearchString, categoryFilter = ViewBag.CategoryFilter })
+        </th>
+        <th>
+            @Html.ActionLink("Category", "Index", new { sortOrder = ViewBag.CategorySortParm, searchString = ViewBag.SearchString, categoryFilter = ViewBag.CategoryFilter })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.First().Image)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Supplier.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td style="color:@(item.Quantity < item.MinimumQuantity ? "red" : "black")">
+                @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinimumQuantity)
+            </td>
+
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Unit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @if (item.Image != null)
+                {
+                    <img src="data:image;base64,@Convert.ToBase64String(item.Image)" alt="Logo dobavljača" style="max-width: 50px; max-height: 50px;" />
+                }
+            </td>
+            <td>
+                <div class="btn-group" role="group">
+                    <a href="@Url.Action("Edit", new { id = item.ID })" class="btn btn-primary">Edit</a>
+                    <a href="@Url.Action("Details", new { id = item.ID })" class="btn btn-info">Order</a>
+                    <a href="@Url.Action("Delete", new { id = item.ID })" class="btn btn-danger">Delete</a>
+                </div>
+            </td>
+
+        </tr>
+    }
+</table>
+
+<div>
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { page, searchString = ViewBag.SearchString, sortOrder = ViewBag.CurrentSort, categoryFilter = ViewBag.CategoryFilter }))
+</div>
